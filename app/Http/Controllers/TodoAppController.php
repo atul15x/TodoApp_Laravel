@@ -34,13 +34,6 @@ class TodoAppController extends Controller
         return redirect('/');
     }
 
-    public function edit($id)
-    {
-        return "You Can Edit";
-
-
-    }
-
 
 
 

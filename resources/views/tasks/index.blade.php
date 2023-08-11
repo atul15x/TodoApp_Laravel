@@ -27,11 +27,6 @@
                                     @csrf
                                     <button {{ $data->complete ? 'disabled' : '' }}  type="submit" class="btn btn-success"><i class="bi bi-check-circle-fill"></i></button>
                                 </form>
-                                <form method="POST" action="/editTodo{{$data->id}}">
-                                    @method('PATCH')
-                                    @csrf
-                                    <button type="submit" class="btn btn-warning"><i class="bi bi-pencil-fill"></i></button>
-                                </form>
                             </div>
                         </div>
                     </li>

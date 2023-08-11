@@ -20,5 +20,3 @@ Route::get('/', [TodoAppController::class, 'index']);
 Route::post('/createTodo', [TodoAppController::class, 'createTodo']);
 
 Route::patch('/completeTodo{id}', [TodoAppController::class, 'update']);
-
-Route::patch('/editTodo{id}', [TodoAppController::class, 'edit']);
